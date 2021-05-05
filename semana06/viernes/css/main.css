@@ -1,0 +1,61 @@
+/*p{color:red;}*/
+*{font-family: "tahoma";}
+
+.titulo {
+    font-size: 2rem;
+    background-color: #d2f122;
+}
+
+form{
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;    
+}
+
+fieldset{
+    border: 1px solid #343434;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #d2f122;
+}
+
+legend{
+    border: 1px solid #343434;
+/*    border-width: 1px;
+    border-style: solid;
+    border-color: #343434;*/
+    border-radius: 10px;
+    padding: 10px 20px;
+    background-color: #b1d111;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+input, select, textarea{
+    padding: 5px;
+    border: 1px solid #343434;
+    border-radius: 5px;
+    background-color: #fefefe;
+}
+
+input[type=email], input[type=text], textarea{
+    width: 100%;
+}
+
+textarea{resize: none;}
+
+label{font-weight: bold;}
+
+input[type=submit]{
+    background-color: darkgreen;
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover{
+    background-color: #dedede;
+    color: darkgreen;
+    transition-duration: 2s;
+}

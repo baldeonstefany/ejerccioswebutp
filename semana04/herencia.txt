@@ -1,0 +1,18 @@
+METODO CONSTRUCTOR MC
+Es un método especial de una clase que se invoca siempre que se crea un objeto de esa clase. 
+
+CUANDO SE CREA UN OBJETO
+Se asigna memoria de ese objeto
+Se inicializan los atributos de ese objeto 
+Se invoca al constructor de la clase que puede ser uno entre varios 
+
+Persona p1 = new Persona();
+
+Persona=clase
+p1= se asigna memoria al objtp1
+Persona()=MC
+
+Caracteristicas 
+Tiene el mismo nombre de la clase
+no devuelve ningun valor 
+debe declarar cono publico

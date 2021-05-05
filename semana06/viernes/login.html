@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contacto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            a{
+                color: crimson;
+                padding: 4px 10px;
+                background-color: moccasin;
+                border-radius: 10px;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color: moccasin;
+                background-color: crimson;
+                padding: 6px 20px;
+                transition-duration:  1000ms;
+            }
+
+            .matrix{
+                background-color: black;
+                color: greenyellow;
+                font-family: consolas;
+                font-size: 40px;
+                text-align: center;
+            }
+
+            .matrix img{
+                width: 100%;
+                height: auto;
+                max-width: 600px;
+            }
+            
+            img.gato{
+                border-radius: 50%; 
+                width: 300px;
+                height: 300px;
+            }
+        </style>
+        <script type="text/javascript">
+            function elige(){
+                x = confirm("¿Quieres la píldora roja?");
+                if(x){
+                    alert("El duro");
+                }else{
+                    alert("ok");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <h1>TronicCorp&copy;</h1>        
+            <a href="index.html">Inicio</a>&nbsp;
+            <a href="nosotros.html">Nosotros</a>&nbsp;
+            <a href="productos.html">Productos</a>&nbsp;
+            <a href="contacto.html">Contacto</a>&nbsp;
+            <a href="login.html">Intranet</a>&nbsp;
+            <hr/>
+        </header>
+        <!-- cuerpo de la página -->
+        <br/><br/>
+
+        <a>Wikipedia sin href</a>&nbsp;|&nbsp;
+        <a href="#" onclick="alert('Wiki');">Wikipedia con href="#"</a>&nbsp;|&nbsp;
+        <a href="https://www.wikipedia.org">Wikipedia con enlace</a>&nbsp;|&nbsp;
+        <a href="https://www.wikipedia.org" target="_blank">
+            Wikipedia en nueva pestaña
+        </a><br/>
+        <p style="background-color: peru;">Soy el parrafo</p>
+        <span style="background-color: greenyellow;">Soy un texto</span>
+        <p>Texto <span style="color:blue; border: 1px solid blue;">span</span> común y corriente</p>
+        <p>Yo soy un
+            texto que no mantiene
+            los    saltos de línea
+            y espacios</p>
+        <pre>Yo soy un
+texto que mantiene
+los    saltos de línea
+       y espacios</pre>
+        <div class="matrix">
+            Hola NEO soy Morfeo<br/>
+            <img src="https://fotografias.antena3.com/clipping/cmsimages02/2019/08/22/4EC4ADEC-5E97-4383-8475-5266251DF764/58.jpg"/>
+            <button type="button" onclick="elige();">Presioname</button>
+        </div>
+        <br/><br/>
+        <!--Fin cuerpo-->
+        <footer>
+            <hr/>
+            <table>
+                <tr>
+                    <td><img class="gato" src="img/cat.jpg" alt=""/></td>                
+                    <td>TronicCorp&copy;</td>
+                    <td>Dirección: Calle Real 344.<br/>Tel: 888-666-111</td>
+                </tr>
+            </table>
+        </footer>
+    </body>
+</html>

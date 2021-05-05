@@ -1,0 +1,27 @@
+<p>Hola</p>
+<p class="texto">Hola</p>
+<p class="texto">Bye</p>
+<p class="texto" id="saludo">Hola</p>
+<p class="texto" id="despedida">Bye</p>
+div class="section"
+<section>
+<a>
+<a href="">
+<input type="password" />
+1 opción es radio y varias es checkbox
+<button>
+<input type="submit"/>
+
+
+IFRAME
+nos permite incrustar una pagina HTML dentro de otra 
+src
+Incrustar videos, mapar, audios, otros sitios como por ejemplo YouTube tienen haciendi uso de sus herramientas como contrles, pantallas, finales, ... 
+
+ETIQUETA OBSOLETA
+
+
+
+
+
+
